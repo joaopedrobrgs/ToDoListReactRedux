@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    max-width: 600px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    border-radius: 25px;
+    transition: all 200ms ease;
+}
+.addButton:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.item i{
+    font-size: 30px;
+}
+
+.card{
+    box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.2);
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200,200,200,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+/* .cardModal{
+    padding: 20px;
+    background-color: white;
+} */
